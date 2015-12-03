@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCA080291C1066DC00E829B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA080281C1066DC00E829B3 /* main.m */; };
+		FCA0802C1C1066DC00E829B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA0802B1C1066DC00E829B3 /* AppDelegate.m */; };
+		FCA0802F1C1066DC00E829B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA0802E1C1066DC00E829B3 /* ViewController.m */; };
+		FCA080321C1066DC00E829B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA080301C1066DC00E829B3 /* Main.storyboard */; };
+		FCA080341C1066DC00E829B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCA080331C1066DC00E829B3 /* Assets.xcassets */; };
+		FCA080371C1066DC00E829B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA080351C1066DC00E829B3 /* LaunchScreen.storyboard */; };
+		FCA080451C10670500E829B3 /* MitRegexConst.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA080401C10670500E829B3 /* MitRegexConst.m */; };
+		FCA080461C10670500E829B3 /* MitRegexMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA080421C10670500E829B3 /* MitRegexMaker.m */; };
+		FCA080471C10670500E829B3 /* NSObject+mitRegexMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA080441C10670500E829B3 /* NSObject+mitRegexMaker.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FCA080241C1066DC00E829B3 /* MitCheckDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MitCheckDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCA080281C1066DC00E829B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCA0802A1C1066DC00E829B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FCA0802B1C1066DC00E829B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FCA0802D1C1066DC00E829B3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FCA0802E1C1066DC00E829B3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FCA080311C1066DC00E829B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCA080331C1066DC00E829B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCA080361C1066DC00E829B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCA080381C1066DC00E829B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCA0803F1C10670500E829B3 /* MitRegexConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MitRegexConst.h; sourceTree = "<group>"; };
+		FCA080401C10670500E829B3 /* MitRegexConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MitRegexConst.m; sourceTree = "<group>"; };
+		FCA080411C10670500E829B3 /* MitRegexMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MitRegexMaker.h; sourceTree = "<group>"; };
+		FCA080421C10670500E829B3 /* MitRegexMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MitRegexMaker.m; sourceTree = "<group>"; };
+		FCA080431C10670500E829B3 /* NSObject+mitRegexMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+mitRegexMaker.h"; sourceTree = "<group>"; };
+		FCA080441C10670500E829B3 /* NSObject+mitRegexMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+mitRegexMaker.m"; sourceTree = "<group>"; };
+		FCA080481C10678300E829B3 /* MitRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MitRegex.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCA080211C1066DC00E829B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCA0801B1C1066DC00E829B3 = {
+			isa = PBXGroup;
+			children = (
+				FCA080261C1066DC00E829B3 /* MitCheckDemo */,
+				FCA080251C1066DC00E829B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCA080251C1066DC00E829B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCA080241C1066DC00E829B3 /* MitCheckDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCA080261C1066DC00E829B3 /* MitCheckDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FCA0802A1C1066DC00E829B3 /* AppDelegate.h */,
+				FCA0802B1C1066DC00E829B3 /* AppDelegate.m */,
+				FCA0802D1C1066DC00E829B3 /* ViewController.h */,
+				FCA0802E1C1066DC00E829B3 /* ViewController.m */,
+				FCA0803E1C10670500E829B3 /* MitRegex */,
+				FCA080301C1066DC00E829B3 /* Main.storyboard */,
+				FCA080331C1066DC00E829B3 /* Assets.xcassets */,
+				FCA080351C1066DC00E829B3 /* LaunchScreen.storyboard */,
+				FCA080381C1066DC00E829B3 /* Info.plist */,
+				FCA080271C1066DC00E829B3 /* Supporting Files */,
+			);
+			path = MitCheckDemo;
+			sourceTree = "<group>";
+		};
+		FCA080271C1066DC00E829B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCA080281C1066DC00E829B3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCA0803E1C10670500E829B3 /* MitRegex */ = {
+			isa = PBXGroup;
+			children = (
+				FCA080481C10678300E829B3 /* MitRegex.h */,
+				FCA0803F1C10670500E829B3 /* MitRegexConst.h */,
+				FCA080401C10670500E829B3 /* MitRegexConst.m */,
+				FCA080411C10670500E829B3 /* MitRegexMaker.h */,
+				FCA080421C10670500E829B3 /* MitRegexMaker.m */,
+				FCA080431C10670500E829B3 /* NSObject+mitRegexMaker.h */,
+				FCA080441C10670500E829B3 /* NSObject+mitRegexMaker.m */,
+			);
+			path = MitRegex;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCA080231C1066DC00E829B3 /* MitCheckDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCA0803B1C1066DC00E829B3 /* Build configuration list for PBXNativeTarget "MitCheckDemo" */;
+			buildPhases = (
+				FCA080201C1066DC00E829B3 /* Sources */,
+				FCA080211C1066DC00E829B3 /* Frameworks */,
+				FCA080221C1066DC00E829B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MitCheckDemo;
+			productName = MitCheckDemo;
+			productReference = FCA080241C1066DC00E829B3 /* MitCheckDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCA0801C1C1066DC00E829B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = MENGCHEN;
+				TargetAttributes = {
+					FCA080231C1066DC00E829B3 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = FCA0801F1C1066DC00E829B3 /* Build configuration list for PBXProject "MitCheckDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCA0801B1C1066DC00E829B3;
+			productRefGroup = FCA080251C1066DC00E829B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCA080231C1066DC00E829B3 /* MitCheckDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCA080221C1066DC00E829B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA080371C1066DC00E829B3 /* LaunchScreen.storyboard in Resources */,
+				FCA080341C1066DC00E829B3 /* Assets.xcassets in Resources */,
+				FCA080321C1066DC00E829B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCA080201C1066DC00E829B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA0802F1C1066DC00E829B3 /* ViewController.m in Sources */,
+				FCA0802C1C1066DC00E829B3 /* AppDelegate.m in Sources */,
+				FCA080451C10670500E829B3 /* MitRegexConst.m in Sources */,
+				FCA080291C1066DC00E829B3 /* main.m in Sources */,
+				FCA080461C10670500E829B3 /* MitRegexMaker.m in Sources */,
+				FCA080471C10670500E829B3 /* NSObject+mitRegexMaker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCA080301C1066DC00E829B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCA080311C1066DC00E829B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCA080351C1066DC00E829B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCA080361C1066DC00E829B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCA080391C1066DC00E829B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FCA0803A1C1066DC00E829B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCA0803C1C1066DC00E829B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MitCheckDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mcking.MitCheckDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FCA0803D1C1066DC00E829B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MitCheckDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mcking.MitCheckDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCA0801F1C1066DC00E829B3 /* Build configuration list for PBXProject "MitCheckDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA080391C1066DC00E829B3 /* Debug */,
+				FCA0803A1C1066DC00E829B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCA0803B1C1066DC00E829B3 /* Build configuration list for PBXNativeTarget "MitCheckDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA0803C1C1066DC00E829B3 /* Debug */,
+				FCA0803D1C1066DC00E829B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCA0801C1C1066DC00E829B3 /* Project object */;
+}
