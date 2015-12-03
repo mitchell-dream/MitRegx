@@ -45,7 +45,7 @@ typedef NS_ENUM(NSUInteger, MitRegexStateType) {
 /** 是否通过了校验 
     当连续校验多个值的时候会使用到此值.
  */
-@property(nonatomic, assign)BOOL isPassed;
+@property(nonatomic, getter=isPassed)BOOL passed;
 
 /** 校验手机号 */
 - (MitRegexMaker * (^)(NSString * str))validatePhone;

@@ -13,7 +13,7 @@
 /** 初始化 */
 - (instancetype)init{
     if (self = [super init]) {
-        _isPassed = YES;
+        _passed = YES;
     }
     return self;
 }
@@ -22,12 +22,12 @@
 #pragma mark 校验手机号 格式
 - (MitRegexMaker *(^)(NSString *))validatePhone{
     return ^(NSString *str){
-        if (_isPassed) {
+        if (_passed) {
             _status = [self regexPhoneNumber:str];
             if (_status == MitRegexStateTypePhoneRight ) {
-                _isPassed =YES;
+                _passed =YES;
             }else{
-                _isPassed = NO;
+                _passed = NO;
             }
         }
         return self;
@@ -37,12 +37,12 @@
 #pragma mark 校验密码 格式
 - (MitRegexMaker *(^)(NSString *))validatePsd{
     return ^(NSString *str){
-        if (_isPassed) {
+        if (_passed) {
             _status = [self regexPsdNumber:str];
             if (_status == MitRegexStateTypePsdRight ) {
-                _isPassed =YES;
+                _passed =YES;
             }else{
-                _isPassed = NO;
+                _passed = NO;
             }
         }
         return self;
@@ -51,12 +51,12 @@
 #pragma mark 校验验证码 格式
 - (MitRegexMaker *(^)(NSString *))validateCodeNumber{
     return ^(NSString *str){
-        if (_isPassed) {
+        if (_passed) {
             _status = [self regexCodeNumber:str];
             if (_status == MitRegexStateTypeCodeRight ) {
-                _isPassed =YES;
+                _passed =YES;
             }else{
-                _isPassed = NO;
+                _passed = NO;
             }
         }
         return self;
