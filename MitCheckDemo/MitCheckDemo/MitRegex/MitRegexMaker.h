@@ -11,18 +11,23 @@
 
 /** 状态类型 */
 typedef NS_ENUM(NSUInteger, MitRegexStateType) {
-    MitRegexStateTypePhoneRight,    //手机号正确
-    MitRegexStateTypePhoneMoreError,//手机号太多
-    MitRegexStateTypePhoneLessError,//手机号太少
-    MitRegexStateTypePhoneChatError,//手机编码格式错误
-    MitRegexStateTypePsdRight,      //密码正确
-    MitRegexStateTypePsdLessError,  //密码太少
-    MitRegexStateTypePsdMoreError,  //密码太多
-    MitRegexStateTypePsdChatError,  //密码格式错误
-    MitRegexStateTypeCodeRight,     //验证码正确
-    MitRegexStateTypeCodeError,     //验证码错误
-    MitRegexStateTypeCodeChatError, //验证码格式错误
-    MitRegexStateTypeChatError,     //编码格式错误
+    MitRegexStateTypePhoneRight,            //手机号正确
+    MitRegexStateTypePhoneMoreError,        //手机号太多
+    MitRegexStateTypePhoneLessError,        //手机号太少
+    MitRegexStateTypePhoneChatError,        //手机编码格式错误
+    MitRegexStateTypePsdRight,              //密码正确
+    MitRegexStateTypePsdLessError,          //密码太少
+    MitRegexStateTypePsdMoreError,          //密码太多
+    MitRegexStateTypePsdChatError,          //密码格式错误
+    MitRegexStateTypeCodeRight,             //验证码正确
+    MitRegexStateTypeCodeError,             //验证码错误
+    MitRegexStateTypeCodeChatError,         //验证码格式错误
+    MitRegexStateTypeChatError,             //编码格式错误
+    MitRegexStateTypePersonalIdRight,       //身份证正确
+    MitRegexStateTypePersonalIdNumberError, //身份证输入数量错误
+    MitRegexStateTypePersonalIdCodeError,   //身份证格式错误
+    MitRegexStateTypeEmailError,            //邮箱格式错误
+    MitRegexStateTypeEmailRight,            //邮箱格式正确
 };
 
 
@@ -56,4 +61,9 @@ typedef NS_ENUM(NSUInteger, MitRegexStateType) {
 /** 校验验证码 */
 - (MitRegexMaker * (^)(NSString * str))validateCodeNumber;
 
+/** 验证身份证 */
+- (MitRegexMaker * (^)(NSString * str))validatePersonalId;
+
+/** 验证 email */
+- (MitRegexMaker*(^)(NSString *))validateEmail;
 @end

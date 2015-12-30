@@ -55,7 +55,7 @@
      只有当校验条件全部通过的时候, isPassed 才为1.
      */
     [NSObject mit_makeMitRegexMaker:^(MitRegexMaker *maker) {
-        maker.validateCodeNumber(@"1234").validatePhone(@"15941281116").validatePsd(@"123456");
+        maker.validateCodeNumber(@"1234").validatePhone(@"15941281116").validatePsd(@"123456").validatePersonalId(@"2103021991071").validateEmail(@"41692292@roo.bo");
     } MitValue:^(MitRegexStateType statusType, NSString * statusStr , BOOL isPassed) {
         NSLog(@"是否通过校验 = %d 状态码 = %ld, 状态详细 = %@",isPassed,statusType,statusStr);
     }];

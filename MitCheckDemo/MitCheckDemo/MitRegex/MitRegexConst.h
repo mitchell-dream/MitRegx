@@ -24,10 +24,22 @@ UIKIT_EXTERN NSString * const MitRegexPsdMoreErrorTxt;
 UIKIT_EXTERN NSString * const MitRegexPsdLessErrorTxt;
 UIKIT_EXTERN NSString * const MitRegexPsdChatErrorTxt;
 
-/** 验证码 */
+/** 验证码错误提示文本 */
 UIKIT_EXTERN NSString * const MitRegexCodeRightTxt;
 UIKIT_EXTERN NSString * const MitRegexCodeErrorTxt;
 UIKIT_EXTERN NSString * const MitRegexCodeChatErrorTxt;
+
+/** 身份证错误信息 */
+UIKIT_EXTERN NSString * const MitRegexPersonalIdRightTxt;
+UIKIT_EXTERN NSString * const MitRegexPersonalIdErrorTxt;
+UIKIT_EXTERN NSString * const MitRegexPersonalIdChatErrorTxt;
+
+
+/** 邮箱错误信息提示 */
+UIKIT_EXTERN NSString * const MitRegexEmailRightTxt;
+UIKIT_EXTERN NSString * const MitRegexEmailChatErrorTxt;
+
+
 
 /** 编码格式错误提示文本 */
 UIKIT_EXTERN NSString * const MitRegexChatErrorTxt;
