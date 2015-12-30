@@ -45,6 +45,7 @@
     NSString * typeStr1 = [NSObject mit_makeMitRegexStatusStringMaker:^(MitRegexMaker *maker) {
         maker.validatePsd(@"1234");
     }];
+    
     NSLog(@"%@",typeStr1);
 
     
