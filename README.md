@@ -1,5 +1,6 @@
 # MitRegx
 You can use MitRegx to verify many kinds of codes format. For example, phone code，secret code，verification code and Email code...
+# How to use MitRegx
 You can use MitRegx in the ways as follow:
 ###First Type:
 + Get state
@@ -50,16 +51,18 @@ You can use MitRegx in the ways as follow:
 
 
 # MitRegx 
-校验手机号格式,密码格式,验证码格式
+你可以使用 MitRegx 来校验手机号格式,密码格式,验证码格式和 Email 格式。
+
+# 怎么样使用 MitRegx
 ###第一种方式:
-获取状态 
++ 获取状态 
 ```
    NSInteger type =  [[NSObject mit_makeMitRegexMaker:^(MitRegexMaker *maker) {
         maker.validateCodeNumber(@"1234");
     }] status];
     NSLog(@"%ld",type);
 ```
-获取状态详细信息 
++ 获取状态详细信息 
 ```
    NSString * typeStr = [[NSObject mit_makeMitRegexMaker:^(MitRegexMaker *maker) {
         maker.validateCodeNumber(@"1234");
@@ -67,7 +70,7 @@ You can use MitRegx in the ways as follow:
     NSLog(@"%@",typeStr);
 ```
 ###第二种方式:
-获取状态 
++ 获取状态 
 ```
     /** */
     NSInteger type1 =  [NSObject mit_makeMitRegexStatusMaker:^(MitRegexMaker *maker) {
@@ -75,7 +78,7 @@ You can use MitRegx in the ways as follow:
     }];
     NSLog(@"%ld",type1);
 ```
-获取详细信息
++ 获取详细信息
 ```
     NSString * typeStr1 = [NSObject mit_makeMitRegexStatusStringMaker:^(MitRegexMaker *maker) {
         maker.validatePsd(@"1234");
