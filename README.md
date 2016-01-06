@@ -1,12 +1,15 @@
 # MitRegx
 + You can use MitRegx to verify many kinds of codes format. For example, phone code，secret code，verification code and Email code...
+
+---
 # Install
 + You can use cocoaPods to install it:
 ```
 pod 'MitRegx'
 ```
 + You can also download the zip and add the file called MitRegx to your project.
-
+ 
+---
 # How to use MitRegx
 You can use MitRegx in the ways as follow:
 ###First Type:
@@ -54,17 +57,21 @@ You can use MitRegx in the ways as follow:
 ```
 
 
-
+---
 
 
 # MitRegx 
 你可以使用 MitRegx 来校验手机号格式,密码格式,验证码格式和 Email 格式。
+
+---
 # 下载
 + 你可以使用 CocoaPods 来安装：
 ```
 pod 'MitRegx'
 ```
 + 你也可以下载压缩包，然后将 MitRegx 文件夹添加到你的工程中使用
+
+---
 # 怎么样使用 MitRegx
 ###第一种方式:
 + 获取状态 
