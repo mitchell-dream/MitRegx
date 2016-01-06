@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
   s.name         = 'MitRegx'
   s.version      = '0.0.1'
-  s.summary      = 'A short description of MitRegx.'
+  s.summary      = 'MitRegx'
   s.homepage     = 'https://github.com/mcmengchen'
   s.license      = 'MIT'
   s.authors      = {'mcmengchen' => '416922992@qq.com'}
