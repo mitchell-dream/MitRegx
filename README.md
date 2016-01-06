@@ -3,7 +3,7 @@
 
 ---
 # Install
-+ You can use cocoaPods to install it:
++ You can use cocoaPods:
 ```
 pod 'MitRegx'
 ```
