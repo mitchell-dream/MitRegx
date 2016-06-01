@@ -115,7 +115,9 @@
 
 #pragma mark ------------------ 手机号 ------------------
 - (MitRegexStateType)regexPhoneNumber:(NSString*)phoneNum{
-    NSString * regex = @"^[1][3758][0-9]{9}$";
+    //由于小灵通的概率太小，也由于随时有可能出现新号，这里对手机号的校验只做是否是11位，具体格式是否符合最好扔给后台做校验。
+//    NSString * regex = @"^[1][3758][0-9]{9}$";
+    NSString * regex = @"^[0-9]{11}$";
     NSPredicate * pred = [NSPredicate predicateWithFormat:@"SELF MATCHES %@",regex];
     BOOL isMatch = [pred evaluateWithObject:phoneNum];
     if(isMatch){
