@@ -10,7 +10,7 @@
 
 @implementation MitRegexMaker
 
-/** 初始化 */
+#pragma mark ------------------- 初始化 ------------------------
 - (instancetype)init{
     if (self = [super init]) {
         _passed = YES;
@@ -19,6 +19,8 @@
 }
 
 
+
+#pragma mark ------------------- 外部调用格式校验 API ------------------------
 #pragma mark 校验手机号 格式
 - (MitRegexMaker *(^)(NSString *))validatePhone{
     return ^(NSString *str){
@@ -98,8 +100,8 @@
 
 
 
-
-#pragma mark ------------------ 邮箱 ------------------
+#pragma mark ------------------- 正则校验 ------------------------
+#pragma action: 邮箱 格式
 - (MitRegexStateType) validateEmail:(NSString *)email
 {
     NSString *emailRegex = @"[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}";
@@ -113,7 +115,7 @@
     }
 }
 
-#pragma mark ------------------ 手机号 ------------------
+#pragma action: 手机号 格式
 - (MitRegexStateType)regexPhoneNumber:(NSString*)phoneNum{
     //由于小灵通的概率太小，也由于随时有可能出现新号，这里对手机号的校验只做是否是11位，具体格式是否符合最好扔给后台做校验。
 //    NSString * regex = @"^[1][3758][0-9]{9}$";
@@ -137,7 +139,7 @@
 }
 
 
-#pragma mark ------------------ 密码 ------------------
+#pragma action: 密码 格式
 - (MitRegexStateType)regexPsdNumber:(NSString*)psd{
     //    NSString * regex = @"\\w{6,26}";
     //    NSPredicate * pred = [NSPredicate predicateWithFormat:@"SELF MATCHES %@",regex];
@@ -158,7 +160,7 @@
 }
 
 
-#pragma mark ------------------ 验证码 ------------------
+#pragma action: 验证码 格式
 - (MitRegexStateType)regexCodeNumber:(NSString*)str{
     NSString * regex = @"^[0-9]{4}$";
     NSPredicate * pred = [NSPredicate predicateWithFormat:@"SELF MATCHES %@",regex];
@@ -168,7 +170,7 @@
 }
 
 
-#pragma mark ------------------ 验证身份证 ------------------
+#pragma action: 身份证 格式
 - (MitRegexStateType) validateIdentityCard: (NSString *)identityCard
 {
     BOOL flag;
@@ -292,8 +294,7 @@
         }
 }
 
-
-#pragma mark ------------------ 修改状态输出 ------------------
+#pragma mark ------------------- 修改输出状态码和详细信息 ------------------------
 - (void)changeStatusString:(MitRegexStateType)status{
     switch (status) {
         case MitRegexStateTypePhoneRight:

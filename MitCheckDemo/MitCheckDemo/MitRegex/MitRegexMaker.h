@@ -9,7 +9,9 @@
 #import <Foundation/Foundation.h>
 #import "MitRegexConst.h"
 
-/** 状态类型 */
+/** 
+    MitRegexStateType state type
+ */
 typedef NS_ENUM(NSUInteger, MitRegexStateType) {
     MitRegexStateTypePhoneRight,            //手机号正确
     MitRegexStateTypePhoneMoreError,        //手机号太多
@@ -31,13 +33,6 @@ typedef NS_ENUM(NSUInteger, MitRegexStateType) {
 };
 
 
-///** 当前处理类的类型 */
-//typedef NS_ENUM(NSUInteger, MitRegexType) {
-//    MitRegexTypeOriginal,
-//    MitRegexTypePhone,
-//    MitRegexTypeCode,
-//    MitRegexTypePsd,
-//};
 
 @interface MitRegexMaker : NSObject
 
