@@ -141,16 +141,11 @@
 
 #pragma action: 密码 格式
 - (MitRegexStateType)regexPsdNumber:(NSString*)psd{
-    //    NSString * regex = @"\\w{6,26}";
-    //    NSPredicate * pred = [NSPredicate predicateWithFormat:@"SELF MATCHES %@",regex];
-    //    if( [pred evaluateWithObject:self]){
-    //        return RegexStateRight;
-    //    }
-    NSUInteger length = psd.length ;
+    NSUInteger length = psd.length;
     if(length < 6){
         [self changeStatusString:MitRegexStateTypePsdLessError];
         return MitRegexStateTypePsdLessError;
-    }else if(length >= 25){
+    } else if(length >= 25) {
         [self changeStatusString:MitRegexStateTypePsdMoreError];
         return MitRegexStateTypePsdMoreError;
     }
@@ -348,7 +343,6 @@
         case MitRegexStateTypeEmailRight:
             self.statusString = MitRegexEmailRightTxt;
             break;
-            
     }
 }
 
