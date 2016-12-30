@@ -1,3 +1,4 @@
+[中文](https://github.com/mcmengchen/MitRegx#mitregx-1)
 # MitRegx
 + You can use MitRegx to verify many kinds of codes format. For example, phone code，secret code，verification code and Email code...
 
