@@ -83,7 +83,7 @@
     return ^(NSString * str){
         if (_passed) {
             _status = [self validateEmail:str];
-            if (_status == MitRegexStateTypePersonalIdRight) {
+            if (_status == MitRegexStateTypeEmailRight) {
                 _passed = YES;
             }else{
                 _passed = NO;
