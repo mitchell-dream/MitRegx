@@ -13,7 +13,7 @@ pod 'MitRegx'
 ---
 # How to use MitRegx
 You can use MitRegx in the ways as follow:
-###First Type:
+### First Type:
 + Get state
 ```
    NSInteger type =  [[NSObject mit_makeMitRegexMaker:^(MitRegexMaker *maker) {
@@ -28,7 +28,7 @@ You can use MitRegx in the ways as follow:
     }] statusString];
     NSLog(@"%@",typeStr);
 ```
-###Second Type
+### Second Type
 +  Get state 
 ```
     /** */
@@ -44,7 +44,7 @@ You can use MitRegx in the ways as follow:
     }];
     NSLog(@"%@",typeStr1);
 ```
-###You can verify many kinds of code in a word:
+### You can verify many kinds of code in a word:
 ```
     /** 
     If a condition in front of the check failed, it will not continue the next check, and the state will be the last check result.
