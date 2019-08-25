@@ -74,7 +74,7 @@ pod 'MitRegx'
 
 ---
 # 怎么样使用 MitRegx
-###第一种方式:
+### 第一种方式:
 + 获取状态 
 ```
    NSInteger type =  [[NSObject mit_makeMitRegexMaker:^(MitRegexMaker *maker) {
@@ -89,7 +89,7 @@ pod 'MitRegx'
     }] statusString];
     NSLog(@"%@",typeStr);
 ```
-###第二种方式:
+### 第二种方式:
 + 获取状态 
 ```
     /** */
@@ -105,7 +105,7 @@ pod 'MitRegx'
     }];
     NSLog(@"%@",typeStr1);
 ```
-###一段代码,完成所有校验:
+### 一段代码,完成所有校验:
 ```
     /** 
      如果之前前面一个条件的校验未通过,将不会再进行下一个校验,返回的状态值也是未通过的校验值
